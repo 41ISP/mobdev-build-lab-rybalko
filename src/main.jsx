@@ -14,7 +14,7 @@ import { AuthGuard } from "./components/AuthGuard.jsx"
 
 createRoot(document.getElementById("root")).render(
     <StrictMode>
-        <BrowserRouter basename='/mobdev-auth-lab-rybalko'>
+        <BrowserRouter>
             <Routes>
                 <Route path="" element={<Layout />}>
                     <Route index element={<ItemsList />} />
